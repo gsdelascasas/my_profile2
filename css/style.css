@@ -5,13 +5,9 @@
  /*Importing Components Files*/
 
  @import url("components/avatar.css");
- 
  @import url("components/banner.css");
-
  @import url("components/button.css");
-
  @import url("components/container.css");
-
  @import url("components/card.css");
  @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,600,700|News+Cycle&display=swap');
  @gray-dark:                 #696969;
