@@ -1,0 +1,409 @@
+
+ /*Importing Google Fonts*/
+ @import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,500,700");
+
+ /*Importing Components Files*/
+
+ @import url("components/avatar.css");
+ 
+ @import url("components/banner.css");
+
+ @import url("components/button.css");
+
+ @import url("components/container.css");
+
+ @import url("components/card.css");
+ @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,600,700|News+Cycle&display=swap');
+ @gray-dark:                 #696969;
+ @gray-light:                #cccccc;
+ @gray-lighter:              #ececec;
+ @gray-lightest:             lighten(@gray-lighter,4%);
+
+/*General Style Rules for Fonts and Colors*/
+
+
+body {
+	color:rgb(0,0,0);
+	background-color: white;
+	margin:0px;
+	font-size:17px;
+	line-height:1.8;
+	letter-spacing:1px;
+	text-align: center;
+	text-decoration:none;
+	font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-style:normal;
+	letter-spacing: 0;
+	text-rendering: optimizeLegibility;
+
+	}
+	.topnav {
+		overflow: hidden;
+		background: white;
+	}
+	.topnav a{
+		float:right;
+		color: #707070;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+		margin-right: 0;
+	}
+	.topnav a:hover {
+		color:#44d79c;
+	}
+	.topnav a.active {
+
+		color:#707070;
+		float:left;
+	}
+	.topnav a.active:hover {
+		color:black;
+	}
+	a {
+	text-decoration:none;
+	color:black;
+	transition:color 0.3s ease;
+	}
+	a:hover {
+	color:rgb(0,0,0);
+	text-decoration: none;
+	}
+	h1 { 
+	color:white; 
+	font-family:'Helvetica Neue';
+	font-style: normal;
+	text-align:center;
+	letter-spacing: 2px;
+	font-size: 3rem;
+	font-weight:300;
+	}
+	h2 {
+	color:#bdbdbd; 
+	font-family:'Roboto'; 
+	text-align:center;
+	}
+	h5 {
+	font-size: 25px;
+	justify-content: space-around;
+	text-align: center;
+	
+
+	}
+	#info-title h5 {
+		font-size: 20px;
+	}
+	
+	.row{
+		display: flex;
+  		flex-direction: row;
+  		flex-wrap: wrap;
+  		width: 100%;
+  	}
+  	.column {
+  		float:left;
+  		width:33.3%;
+  	}
+
+  	.top h1{
+  		
+  		padding:30px;
+  		box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  		margin: 10px;
+  		color:#707070;
+  		font-family: "Roboto";
+  		font-style: "Regular";
+  		font-size: 43px;
+  		border-color: white;
+  		background-color: white; 
+		
+  	}
+  	.top{
+  		
+  		padding:30px;
+  		box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  		margin-top: 10px;
+  		color:#707070;
+  		font-family: "Roboto";
+  		font-style: "Regular";
+  		font-size: 43px;
+  		left:200px;
+  		background: linear-gradient(68deg, #39eebb, #c0b8b8);
+  		
+  	}
+
+  	
+  	#skillpic img{ 
+  		width:50%;
+  		height: auto;
+  		filter: contrast(70%);
+
+  	}
+  	
+
+  	#blue{
+  		border-top:solid #44d79c;
+  		border-width: 15px;
+		background: black; 
+		position:absolute; 
+		bottom:0; 
+		height:100%;
+		width:100%; 
+		height:180px; 
+	}
+	.ftext {color: #44d79c;
+		font-family: Roboto;
+		font-size: 60px;
+	 	text-align: center;
+		margin-top: 50px;
+	}
+
+	.ftext2 {
+	  color: #44d79c;
+	  font-family: Lato;
+	  font-size: 20px;
+	  text-align: center;
+	  margin-top: -50px;
+	}  	
+  	.narrow {
+  		display: flex;
+  		flex:150%;
+  		width:1000px;
+  		height:100% ;
+  		background-size: cover;
+  		background-image: linear-gradient(-225deg,rgba(0,0,0,2)0%, rgba(0,0,0,0.6)50%), url("../Images/dog2.jpg") ;
+  	}
+  	.narrow-seg{
+  		display: flex;
+  		width:300px;
+  		height:100% ;
+  		background-size: cover;
+  		justify-content: space-around;
+  		margin: 20px;
+  		background-position: center;
+
+  		
+  	}
+
+
+  	.wide-seg{
+  		display: flex;
+  		background: white;
+  		height: 100%;
+  		width:100%;
+  		flex-direction: column;
+  		justify-content: space-around;
+  		flex:1;
+  		
+
+  	}
+  	
+  	.narrow h1{
+  		color:#44d79c;
+  		font-family: 'Roboto';
+  		font-size: 20px 20px;
+  		font-style: regular;
+  		position: center;
+  		word-spacing: 0px;
+  		justify-content: center;
+  		text-align: center;
+  		padding-left: 90px;
+  	}
+  	  	
+  	.wide{
+  		display: flex;
+  		background: white;
+  		height: 100%;
+  		width:100%;
+  		flex-direction: column;
+  		justify-content: space-around;
+
+	}
+  	.wide h1{
+  		font-family: 'Roboto';
+  		color:black;
+
+  	}
+
+  	.parent{
+  		display:flex;
+  		position: center;
+  		align-items: center;
+  		height:500px;
+  		justify-content: center;
+ 	}
+ 	.parent-info {
+ 		display:flex;
+  		position: center;
+  		align-items: center;
+  		height:200px;
+  		justify-content: center;
+  		flex-direction: row;
+ 	}
+
+
+ 	
+ 	.parentcards{
+	 	display: flex;
+	 	flex-wrap: wrap;
+	 	list-style: none;
+	 	align-items: center;
+	 	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+	 	background-color: white;
+	 	width:100%;
+	 	margin-top: 50px;
+	 	margin-bottom: 50px;
+	 	font-family: 'Roboto';
+	 	font-style: regular;
+	 	border-color: #44d79c;
+	 	padding: 20px;
+ 	}
+
+ 	#skill {
+ 	    background: linear-gradient(68deg, #f2f3f3, #3ee0d7);;
+ 		width: 100%,
+ 		align-items:center;
+ 	
+ 	}
+
+ 	#skillinfo {
+ 	
+ 		border-width: 5px;
+ 		flex-wrap: wrap;
+ 		display: flex;
+ 		align-items: center;
+ 		width:900px;
+	}
+ 	
+ 	#p-one img{
+	 	background-position: center center;
+	 	background-repeat: no-repeat;
+	 	background-size: cover;
+	  	filter:contrast(70%);
+	 	overflow:hidden;
+	 	position:relative;
+	 	transition: filter .05s;
+	 	height:200px;
+	 	width: 100%;
+	 	opacity: none;
+	 	padding: 20px;
+ 	}
+
+ 	
+ 	#skillinfo h3{
+	 	color:black;
+  		font-family: 'Roboto';
+  		font-size: 1rem;
+  		position: center;
+  		word-spacing: 1px;
+  		justify-content: center;
+  		text-align: left;
+  		font-weight: 300;
+  		letter-spacing: 2px;
+  		padding: 20px 20px;
+
+	}
+	.page-footer {
+		width:100%;
+		color:white;
+		text-align: center;
+		display: flex;
+		background: linear-gradient(68deg, #39eebb, #c0b8b8);
+		background-size: 400% 400%;
+		padding:30px;
+		justify-content: space-around;
+
+		-webkit-animation: AnimationName 9s ease infinite;
+		animation: AnimationName 9s ease infinite;
+
+		@-webkit-keyframes AnimationName {
+		    0%{background-position:0% 55%}
+		    50%{background-position:100% 46%}
+		    100%{background-position:0% 55%}
+		}
+		@keyframes AnimationName { 
+		    0%{background-position:0% 55%}
+		    50%{background-position:100% 46%}
+		    100%{background-position:0% 55%}
+		}
+	}	
+
+	.wrap {
+		width: 100%;
+		display: flex;
+		text-align: center;
+		background: linear-gradient(68deg, #0d0d0d, #707070);
+		background-size: 400% 400%;
+
+		-webkit-animation: AnimationName 9s ease infinite;
+		animation: AnimationName 9s ease infinite;
+
+		@-webkit-keyframes AnimationName {
+		    0%{background-position:49% 0%}
+		    50%{background-position:52% 100%}
+		    100%{background-position:49% 0%}
+		}
+		@keyframes AnimationName { 
+		    0%{background-position:49% 0%}
+		    50%{background-position:52% 100%}
+		    100%{background-position:49% 0%}
+		}
+
+	}
+	
+	
+	
+	#social:hover{
+		background:#707070;
+		border: 3px solid #44d79c;
+
+	}
+
+	#social{
+		display: flex;
+		text-align: center;
+		border: 0px;
+		text-transform: uppercase;
+		transition: all 0.3s ease 0s;
+		margin: 0px 5px;
+		font-size: 18px;
+	    border-radius: 30px;
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+	    display: block;
+		border: 1px solid rgba(255,255,255,0.2);
+		justify-content: space-between;
+		margin left: 
+		position:center;
+
+	
+	}
+	.social-profile {
+		justify-content: space-between space-around
+		
+
+	}
+
+	#f-align {
+		justify-content: space-around;
+		position: center;
+	}
+
+	#hover img{
+		
+	padding:150px 0px;
+	background-size: cover;
+	background-position: center;
+	background-image: linear-gradient(-225deg,rgba(0,0,0,2)0%, rgba(0,0,0,0.6)50%), url("../Images/dog3.jpg") ;
+	
+	}
+
+	
+
+}	
+
+
+
+		
