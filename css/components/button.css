@@ -1,0 +1,41 @@
+.ban-button {
+	position:absolute;
+	left:140px;
+	bottom:315px;
+	background-color:none; 
+	border:none;
+	font-family: "Roboto",sans-serif;
+	font-weight: bold;
+	color:#44d79c;
+	font-size: 25px;
+
+}
+#ban-button:hover{
+	color:white;
+}
+.btn-gold {
+	background-color:none; 
+	padding:.5px auto;
+	color:#696969;
+	font-weight: bold;
+	font-family: 'Lora', sans-serif;
+	border:1px solid  #cccccc;
+}
+.btn-block{
+	display: block;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+	
+#learnmore{
+	font-size: 12px;
+	transition:0.3s;
+
+}
+#learnmore:hover{ 
+	background-color: #44d79c;
+	color:white;
+	border:none;
+}
